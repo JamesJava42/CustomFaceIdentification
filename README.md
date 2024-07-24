@@ -18,6 +18,10 @@ x = tf.keras.layers.Flatten()(x)
 x = tf.keras.layers.Dense(256, activation='relu')(x)
 model = Model(inputs=base_model.input, outputs=x)
 
+output:
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/2d92483a-4ca2-4df7-ad73-653fcefd805b">
+
+
 
 Real TIme Face detection:
 
